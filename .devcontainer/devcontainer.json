@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-dockerfile
+{
+	"name": "dev-python-jupyter",
+	"context": "./",
+	"dockerFile": "./Dockerfile",
+	"onCreateCommand": "/root/onCreate.sh",
+	"extensions": [
+		"ms-python.python",
+		"ms-python.pylance",
+		"ryanluker.vscode-coverage-gutters",
+		"njpwerner.autodocstring"
+	],
+	"settings": {
+		"editor.formatOnSave": false,
+		"python.formatting.provider": "black",
+		"python.formatting.autopep8Path": "./.venv/bin/autopep8",
+		"python.formatting.blackPath": "./.venv/bin/black",
+		"python.defaultInterpreterPath": "./.venv/bin/python",
+		"python.languageServer": "Pylance",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pycodestyleEnabled": true,
+		"python.linting.flake8Path": "./.venv/bin/flake8",
+		"python.linting.mypyPath": "./.venv/bin/mypy",
+		"python.linting.pycodestylePath": "./.venv/bin/pycodestyle",
+		"python.linting.pydocstylePath": "./.venv/bin/pydocstyle",
+		"python.linting.pylintPath": "./.venv/bin/pylint",
+		"python.testing.pytestArgs": [
+			"tests"
+		],
+		"python.testing.unittestEnabled": false,
+		"python.testing.pytestEnabled": true,
+		"autoDocstring.docstringFormat": "numpy"
+	}
+}
