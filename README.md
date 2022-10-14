@@ -41,7 +41,7 @@ jupyter lab --allow-root
 
 The URL of the Jupyterlab session will be printed on the screen. Click on the link or copy it to a web browser. 
 
-### Working
+### Working directory
 
 Notebooks and local data files should be kept in the `./working` directory.
 
