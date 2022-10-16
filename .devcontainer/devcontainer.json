@@ -9,7 +9,8 @@
 		"ms-python.python",
 		"ms-python.pylance",
 		"ryanluker.vscode-coverage-gutters",
-		"njpwerner.autodocstring"
+		"njpwerner.autodocstring",
+		"streetsidesoftware.code-spell-checker"
 	],
 	"settings": {
 		"editor.formatOnSave": false,
