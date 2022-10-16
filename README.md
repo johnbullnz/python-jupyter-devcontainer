@@ -1,6 +1,6 @@
 # Python Jupyter devcontainer
 
-Provides a devcontainer running Python 3.9 and Juptyerlab. Additional Python packages are managed using the poetry.
+Provides a devcontainer running Python 3.9 and Juptyerlab. Additional Python packages are managed using Poetry.
 
 ## Requirements
 
